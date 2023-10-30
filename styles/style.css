@@ -66,8 +66,7 @@
 
 .header__image {
   position: absolute;
-  top: 135px;
-  right: 20px;
+  inset: 135px 20px auto auto;
   max-width: 636px;
   z-index: -1;
 }
@@ -165,6 +164,10 @@
   text-decoration: none;
 }
 
+.events__more:hover {
+  color: #1f69c9;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -187,28 +190,23 @@
 }
 
 .person_name_feynman {
-  top: -30px;
-  left: 319px;
+  inset: -30px auto auto 319px;
 }
 
 .person_name_burbidge {
-  top: 96px;
-  right: 125px;
+  inset: 96px 125px auto auto;
 }
 
 .person_name_cannon {
-  bottom: 18px;
-  right: 216px;
+  inset: auto 216px 18px auto;
 }
 
 .person_name_mitchell {
-  bottom: 82px;
-  left: 142px;
+  inset: auto auto 82px 142px;
 }
 
 .person_name_tarter {
-  top: 79px;
-  left: 159px;
+  inset: 79px auto auto 159px;
 }
 
 .person__image {
@@ -383,8 +381,7 @@
 
 .about__circle {
   position: absolute;
-  top: -121px;
-  left: -91px;
+  inset: -121px auto auto -91px;
   background-color: #2f80ed;
   width: 495px;
   height: 495px;
@@ -397,13 +394,13 @@
   flex-direction: column;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 102px 60px 80px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: grid;
   grid-template-columns: 1fr auto auto;
-  column-gap: 100px;
+  column-gap: 80px;
 }
 
 .footer__logo {
