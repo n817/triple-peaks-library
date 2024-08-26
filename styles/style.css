@@ -40,11 +40,11 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .nav__link:hover {
-  color: #1f69c9;
+  color: #d35722;
 }
 
 .header__title {
@@ -66,8 +66,8 @@
 
 .header__image {
   position: absolute;
-  inset: 135px 20px auto auto;
-  max-width: 636px;
+  inset: 148px 48px auto auto;
+  max-width: 550px;
   z-index: -1;
 }
 
@@ -81,12 +81,12 @@
 }
 
 .header__link {
-  color: #2f80ed;
+  color: #e96e3a;
   text-decoration: none;
 }
 
 .header__link:hover {
-  color: #1f69c9;
+  color: #d35722;
 }
 
 .header__address {
@@ -241,6 +241,7 @@
   text-align: center;
   font-size: 44px;
   line-height: 52px;
+  font-weight: 500;
   color: #fff;
   margin: 0 0 24px;
 }
@@ -346,46 +347,44 @@
 
 .about {
   display: flex;
-  gap: 120px;
+  flex-direction: column;
+  row-gap: 32px;
   position: relative;
   overflow: hidden;
   background-color: #1f1f1f;
   color: #fff;
   box-sizing: border-box;
-  padding: 100px 80px;
-  z-index: 1;
-}
-
-.about__title {
-  max-width: 154px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  margin: 0;
+  padding: 58px 220px 82px 560px;
   z-index: 1;
 }
 
 .about__content {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 20px;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  margin-left: auto;
+}
+
+.about__title {
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+  margin: 0 0 12px 0;
+  z-index: 1;
 }
 
 .about__paragraph {
   margin: 0;
 }
 
-.about__circle {
+.about__image {
   position: absolute;
-  inset: -121px auto auto -91px;
-  background-color: #2f80ed;
-  width: 495px;
-  height: 495px;
-  border-radius: 50%;
+  inset: -82px auto auto -271px;
+  width: 703px;
   z-index: -1;
 }
 
