@@ -48,7 +48,7 @@
 }
 
 .header__title {
-  max-width: 610px;
+  max-width: 601px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
@@ -57,7 +57,7 @@
 }
 
 .header__description {
-  max-width: 510px;
+  max-width: 532px;
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
@@ -92,4 +92,143 @@
 .header__address {
   color: #838383;
   margin: 0;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__icon_type_calendar {
+  background-image: url(../images/icon_calendar.svg);
+}
+
+.event-info__icon_type_pin {
+  background-image: url(../images/icon_pin.svg);
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
+.person_name_feynman {
+  inset: -30px auto auto 319px;
+  flex-direction: column-reverse;
+}
+
+.person_name_burbidge {
+  inset: 96px 125px auto auto;
+  flex-direction: column-reverse;
+}
+
+.person_name_cannon {
+  inset: auto 216px 18px auto;
+}
+
+.person_name_mitchell {
+  inset: auto auto 82px 142px;
+}
+
+.person_name_tarter {
+  inset: 79px auto auto 159px;
+  flex-direction: column-reverse;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
 }
